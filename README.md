@@ -15,7 +15,7 @@ Visualizing problems is a widely recommended technique in the coding community. 
 
 ## Key Features
 
-= **User-Friendly Interface**: LeetCode-Canvas is designed with simplicity and focus in mind, ensuring users can concentrate on problem-solving without distractions.
+- **User-Friendly Interface**: LeetCode-Canvas is designed with simplicity and focus in mind, ensuring users can concentrate on problem-solving without distractions.
 
 - **Versatile Drawing Tools**: Includes a paintbrush with customizable colors and brush sizes, an eraser tool, undo/redo functionality, and a clear canvas option to reset everything with one click.
 
