@@ -1,7 +1,7 @@
 #toggle-Leetcode_canvas-btn {
     position: fixed;
     top: 9px; /* Positioning from the top */
-    left: 57%; /* Center horizontally */
+    left: 84%; /* Center horizontally */
     transform: translateX(-50%); /* Shift it back by half its width */
     padding: 3px 15px;
     font-weight: bold;
