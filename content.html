@@ -1,0 +1,23 @@
+<div id="paint-controls">
+    <label for="type-select">Type:</label>
+    <select id="type-select">
+        <option value="paintbrush">Paintbrush</option>
+        <option value="eraser">Eraser</option>
+    </select>
+
+    <label for="color-picker">Colour:</label>
+    <input type="color" id="color-picker" value="#0BDA51">
+
+    <label for="brush-size">Brush Size:</label>
+    <input type="range" id="brush-size" min="1" max="20" value="8">
+
+    <button id="undo-btn"></button>
+    <button id="redo-btn">></button>
+    <button id="clear-btn">⟳</button>
+    <button id="remove-image-btn">Remove Image</button>
+</div>
+
+<div id="scrollable-canvas-container">
+    <canvas id="Leetcode_canvas-canvas" width="1785" height="2000"></canvas>
+</div>
+

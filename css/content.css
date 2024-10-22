@@ -1,0 +1,120 @@
+#toggle-Leetcode_canvas-btn {
+    position: fixed;
+    top: 9px; /* Positioning from the top */
+    left: 57%; /* Center horizontally */
+    transform: translateX(-50%); /* Shift it back by half its width */
+    padding: 3px 15px;
+    font-weight: bold;
+    background-color: #D3D3D3; /* Light gray background */
+    color: #3C3C3C; /* Dark gray text */
+    border: 1px solid #A9A9A9; /* Slightly darker gray border */
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 1001;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+
+#toggle-Leetcode_canvas-btn:hover {
+    background-color: #C0C0C0;
+    border-color: #808080;
+}
+
+
+
+#paint-controls {
+    margin-bottom: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2c2c2c;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#paint-controls label {
+    margin-right: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#type-select {
+    border: 1px solid #555;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #444;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+#type-select:hover {
+    background-color: #555;
+}
+
+#color-picker, #brush-size {
+    border: 1px solid #555;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #444;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+#color-picker {
+    width: 40px;
+}
+
+#paint-controls button {
+    background-color: #5a5a5a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 14px;
+}
+
+#paint-controls button:hover {
+    background-color: #777;
+    transform: translateY(-2px);
+}
+
+#paint-controls button:active {
+    transform: translateY(0);
+}
+
+#scrollable-canvas-container {
+    width: 100vw;
+    max-width: 80%;
+    max-height: 80vh;
+    overflow-y: auto;
+    border: 2px solid #38c431;
+    margin: 5px auto;
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#Leetcode_canvas-canvas {
+    width: 100%; /* Adjust to container size */
+    height: 100%; /* Adjust to container size */
+    cursor: crosshair;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
